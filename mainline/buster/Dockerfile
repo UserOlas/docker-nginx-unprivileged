@@ -1,5 +1,7 @@
-ARG IMAGE=debian:buster-slim
-FROM $IMAGE
+#ARG IMAGE=debian:buster-slim
+#FROM $IMAGE
+
+FROM debian:buster-slim
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
